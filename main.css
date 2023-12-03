@@ -1,0 +1,95 @@
+
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+html::-webkit-scrollbar-thumb{
+    background: #f4f5fb;
+    border-radius: 10px;
+}
+html::-webkit-scrollbar{
+    width: 10px;
+}
+
+body{
+    background: #1c0a51;
+    overflow-x: hidden;
+}
+
+header{
+    background-color: #1c0a51;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #371e80;
+}
+
+#home{
+    width: 100%;
+    height: 90vh;
+    background-image: url(./images/b1.jpg);
+    background-size: cover;
+    background-position: 70%;
+}
+
+#services {
+    padding-bottom: 150px;
+}
+
+#services .card-services {
+    background-color: #2e1774;
+}
+
+.traco {
+    height: 100%;
+    width: 1px;
+    background-color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #371e80;
+    color: #fff;
+}
+
+.navbar-toggler:focus {
+    outline: 0;
+    box-shadow: 0 0 0 ;
+}
+
+#packages {
+    margin-top: 100px;
+    margin-bottom: 130px;
+}
+
+#packages h2 {
+    margin-bottom: 60px;
+}
+
+#packages .card .btn-light {
+    border: 2px solid #000;
+}
+
+.card-evaluation {
+    color: #eea31c;
+}
+
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
+
+#comment {
+    margin: 120px 0px 140px 0px;
+}
+
+.comment-card img{
+    border-radius: 50%;
+}
+
+@media screen and (min-width: 768px){
+    #gallary .row .card-gallary:hover {
+        cursor: pointer;
+        transition: 0.4s;
+        scale: 1.2;
+    }
+}
